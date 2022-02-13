@@ -31,12 +31,14 @@
 - Have 10 hearts like players
 - Burns in daylight just like the zombies
 - Have attack damage of 1.5 hearts (Compared to the player who has attack damage of 1 heart)
+- Transforms to Stray when you froze inside a powder snow
 - You will receive a bow
 - Monsters don't attack you
 - Iron Golems, Snow Golems, and Wolves attack you
 - Have infinite arrows just like the skeletons
 - Doesn't drown in water
 - Transforms to Wither Skeleton when you burned in lava or died from wither effect
+- You can ride spiders that spawned as a spider jockey
 
 ## **Chicken**
 - Have 2 hearts
@@ -89,9 +91,10 @@
 - Have 8 hearts
 - Have attack damage of 1.5 hearts (Compared to the player who has attack damage of 1 heart)
 - Monsters don't attack you
-- Can climb walls
+- Can climb walls (Broken on Mobile)
 - Their eyes glow in the dark
 - Iron Golems and Snow Golems attack you
+- Immune to poison
 
 ## **Pig**
 - Have 5 hearts
@@ -167,6 +170,7 @@
 - Burns in daylight just like the zombies
 - Have attack damage of 1.5 hearts (Compared to the player who has attack damage of 1 heart)
 - Monsters don't attack you
+- You can mine faster underwater
 - You will receive a trident with Loyalty III
 - Have a baby variant
 - Iron Golems and Snow Golems attack you
@@ -186,7 +190,7 @@
 - Monsters don't attack you
 - Iron Golems, Snow Golems, and Wolves attack you
 - Doesn't drown in water
-- Gives wither effect to the mobs you hit (Bugged)
+- Gives wither effect to the mobs you hit (BUGGED)
 - Immune to the wither effect
 
 ## **Villager**
@@ -195,6 +199,7 @@
 - Zombies, Drowned, and Husk attacks you
 - Have a baby variant
 - Doesn't have job variants yet
+- You will be converted to a zombie villager when you are killed by a zombie or husk in normal or hard difficulty
 
 ## **Snow Golem**
 - Have 2 hearts
@@ -248,7 +253,7 @@
 - Iron Golems and Snow Golems attack you
 - Have a baby variant
 - It zombifies the villagers you kill in Hard or Normal Difficulty
-- Gives hunger effect to the mobs you hit (Bugged)
+- Gives hunger effect to the mobs you hit (BUGGED)
 - Transforms into a Zombie when you drowned in water
 ### **Baby Variant**
 - Can go through 1 block holes
@@ -294,6 +299,7 @@
 - You can swim faster than a normal player
 - They have 3 size variants which are normal, small, and big salmon
 - Cannot breathe air
+- You can mine faster underwater
 - Axolotls kill you
 
 ## **Iron Golem**
@@ -301,9 +307,12 @@
 - They walk really slow
 - Three blocks tall so you can't enter normal doors
 - Have attack damage of 3.75 to 10.75 hearts
+- Shows different degrees of cracking depending on their health
 - You don't have knockback when you get hit
 - Monsters hit you just like players
+- Shows a poppy on its hands when holding one
 - Don't drown underwater
+- Can be repaired by other players using an iron ingot
 
 ## **Axolotl**
 - Have 7 hearts
@@ -313,6 +322,7 @@
 - Drowned, Guardian and Elder Guardian attacks you
 - Will drown in the air in 5 minutes
 - Have baby variant
+- You can mine faster underwater
 ### **Baby Variant**
 - Smaller than the adult variant and have a smaller hitbox
 - You can grow into an adult
@@ -347,7 +357,7 @@
 - Iron Golems and Snow Golems attack you
 - Receives iron axe like the real vindicators
 - Have attack damage of 2.5 hearts and 6.5 hearts with an iron axe
-- Shows arms when holding weapons
+- Shows arms when holding weapons (BUGGED, MORPH-8)
 - Have a gray skin compared to villagers
 
 ## **Cod**
@@ -355,11 +365,12 @@
 - Can breathe underwater
 - You can swim faster than a normal player
 - Cannot breathe air
+- You can mine faster underwater
 - Axolotls kill you
 
 ## **Hoglin**
 - Have 20 hearts
-- You will not yet be converted to a Zoglin when you are in the overworld
+- You will be converted to a Zoglin when you are in the overworld
 - Have attack damage of 1.5 to 4 hearts
 - Other monsters don't attack you like ghast
 - Iron Golems and Snow Golems attack you
@@ -374,6 +385,7 @@
 - Have 5 hearts
 - Can breathe underwater
 - Have a baby variant
+- You can mine faster underwater
 - Cannot breathe air
 - Axolotls kill you
 
@@ -388,12 +400,126 @@
 - You will receive a golden axe
 
 ## **Llama**
-- Have 7.5 to 15 hearts
+- Have 12 hearts
 - Can scare wolves
 - Have 4 different skin variants
+- Players can ride you
 - You can spit at mobs using the special item you receive
 - Have baby variant
 ### **Baby Variant**
 - Can go through half-block holes like slabs
+- Have smaller hitbox
+- You can grow into an adult
+- Players can't ride you
+
+## **Cave Spider**
+- Have 6 hearts
+- Smaller compared to a normal spider
+- Have an attack damage of 1 heart
+- Can inflict poison to the mobs it hit (BUGGED)
+- Monsters don't attack you
+- Can climb walls (Broken on Mobile)
+- Their eyes glow in the dark
+- Iron Golems and Snow Golems attack you
+- Immune to poison
+- Can go through half-block holes like slabs
+
+## **Mooshroom**
+- Have 5 hearts
+- Transforms to brown variant or vice versa when struck by lightning
+- Can go through slabs (Just like how you sneak in Java)
+- You are like a cow but with different color and mushrooms on the body
+- Monsters don't attack you unlike when you are a player
+- Have a baby variant
+- You can get milked by other players with a bowl to get mushroom stew
+### **Baby Variant**
+- Can go through 1 block holes
+- Doesn't have mushroom on its body
+- You are not milkable
+- Have smaller hitbox
+- You can grow into an adult
+### **Brown Variant**
+- Have brown mushroom on its body instead of red mushrooms
+- Have a brown skin like the brown mushroom
+
+## **Zombie Villager**
+- Have 10 hearts
+- Villagers flee from you
+- Burns in daylight just like the zombies
+- Have biomes variant
+- Have attack damage of 1.5 hearts (Compared to the player who has attack damage of 1 heart)
+- Monsters don't attack you
+- Iron Golems and Snow Golems attack you
+- Have a baby variant
+- You can be cured with a weakness and golden apple
+- It zombifies the villagers you kill in Hard or Normal Difficulty
+### **Baby Variant**
+- Can go through 1 block holes
+- Ability to run fast
+- Have smaller hitbox
+### **Biomes Variant**
+- Have 7 different types of biome variant
+
+## **Goat**
+- Have 5 hearts
+- Can go through slabs (Just like how you sneak in Java)
+- Have a screaming variant
+- Monsters don't attack you unlike when you are a player
+- Can jump high by sneaking then wait for the jump boost to show
+- Have a baby variant
+- You can get milked by other players
+- Reduced fall damage by 10%
+### **Baby Variant**
+- Can go through 1 block holes
+- You are not milkable
+- Have smaller hitbox
+- You can grow into an adult
+### **Screaming Variant**
+- Plays a milk sound of screaming goat when milked
+
+## **Wither**
+- Have 300 hearts
+- Cannot be damaged by undead mobs like zombies
+- Ability to fly in survival
+- Immune to wither effect
+- Receives two items that can shoot wither skull projectile (BUGGED, MORPH-13)
+- Have blue aura on its body when its half health or below
+- 3 blocks tall
+- Doesn't burn in lava or fire
+
+## **Dolphin**
+- Have 5 hearts
+- You can mine faster underwater
+- Have 1.5 hearts of attack damage
+- Swims faster underwater
+- You can fit through 1 block spaces
+- Can breathe underwater for 4 minutes and breathes air for 2 minutes like how dolphins jump out of water to get air and jump down for water
+### **Baby Variant**
+- Smaller compared to an adult variant
+- Have smaller hitbox
+- You can grow into an adult
+
+## **Zoglin**
+- Have 20 hearts
+- Have attack damage of 1.5 to 4 hearts
+- Other monsters don't attack you like ghast
+- Iron Golems and Snow Golems attack you
+- Have a knockback resistance of 50%
+- Doesn't burn in lava or fire
+- Have a baby variant
+### **Baby Variant**
+- Can go through half-block holes like slabs
+- Have attack damage of half a heart
+- Have smaller hitbox
+
+## **Bee**
+- Have 5 hearts
+- Can go through half block space like slabs
+- Ability to fly in survival
+- Can inflict poison to the mobs it hit (BUGGED)
+- Collects pollen by sneaking inside a flower for 20 seconds and can pollinate crops by going over them
+- You can store the pollen you got in a bee nest by looking at the block then sneak and increase its honey level 
+### **Baby Variant**
+- Smaller compared to an adult variant
 - Have smaller hitbox
 - You can grow into an adult
